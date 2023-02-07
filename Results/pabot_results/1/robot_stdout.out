@@ -1,0 +1,36 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.RegistrationTest                                                       
+==============================================================================
+RegistrationTest                                                        
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Testcases\RegistrationTest.robot:14
+    T:  RegistrationTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Testcases\RegistrationTest.robot:16
+      Click register Link    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Resources\RegistartionKeywords.robot:6
+      Click Link    ${link_Reg}
+      |  ${link_Reg} = link:REGISTER (str)
+______________________________________________________________________________
+| FAIL |
+ElementClickInterceptedException: Message: Element <a href="register.php"> is not clickable at point (447,358) because another element <iframe id="gdpr-consent-notice" class="faktor-iframe-wrapper" src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=defaultTheme&useSystemFonts=false&cmpType=tcf"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+------------------------------------------------------------------------------
+Suites.RegistrationTest                                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Results\pabot_results\1\output.xml

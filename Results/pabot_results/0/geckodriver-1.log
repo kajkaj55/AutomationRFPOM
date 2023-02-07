@@ -1,0 +1,22 @@
+1675774706139	geckodriver	INFO	Listening on 127.0.0.1:54619
+1675774706652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54620" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile4p9s8U"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "xing.com" - not a valid origin.
+1675774707112	Marionette	INFO	Marionette enabled
+1675774707117	Marionette	INFO	Listening on port 54635
+Read port: 54635
+WebDriver BiDi listening on ws://127.0.0.1:54620
+1675774707349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies.jsm: 
+  Download failed - ERROR_NETWORK_FAILURE - https://addons.mozilla.org/firefox/downloads/file/3397774/clear_browsing_data-2.4.0-fx.xpi?src=search
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=true
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofile4p9s8U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54620/devtools/browser/04c941a9-9a33-4cb3-8098-c1f16985a109
+1675774714332	Marionette	INFO	Stopped listening on port 54635
+[Parent 13144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 13144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 13144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

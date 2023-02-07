@@ -1,0 +1,39 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.LoginTest                                                              
+==============================================================================
+ using tutorial and tutorial                                            
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Testcases\LoginTest.robot:13
+    T:   using tutorial and tutorial    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Testcases\LoginTest.robot:0
+      Valed login    tutorial    tutorial
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Testcases\LoginTest.robot:20
+      Click SignIn    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Resources\LoginKeywords.robot:16
+      Click Button    ${btn_signIn}
+      |  ${btn_signIn} = xpath=//input[@type='submit'] (str)
+______________________________________________________________________________
+| FAIL |
+ElementClickInterceptedException: Message: Element <input name="submit" type="submit"> is not clickable at point (580,562) because another element <iframe id="gdpr-consent-notice" class="faktor-iframe-wrapper" src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=defaultTheme&useSystemFonts=false&cmpType=tcf"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+------------------------------------------------------------------------------
+Suites.LoginTest                                                      | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Results\pabot_results\0\output.xml

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.11.1 on win32)" generated="20230207 15:38:37.835" rpa="false" schemaversion="3">
+<suite id="s1" name="CookiesAccept" source="C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\Testcases\CookiesAccept.robot">
+<test id="s1-t1" name="Accept Cookies" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://demo.guru99.com/test/newtours/</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230207 15:38:38.067" level="INFO">Opening browser 'firefox' to base url 'https://demo.guru99.com/test/newtours/'.</msg>
+<msg timestamp="20230207 15:38:38.068" level="INFO">Firefox driver log is always forced to to: C:\Users\Mohamedk\PycharmProjects\AutomationRFPOM\geckodriver-8.log</msg>
+<msg timestamp="20230207 15:38:38.084" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230207 15:38:38.085" level="FAIL">OSError: [WinError 216] Die Version von %1 ist mit der ausgeführten Windows-Version nicht kompatibel. Überprüfen Sie die Systeminformationen des Computers, und wenden Sie sich anschließend an den Herausgeber der Software</msg>
+<status status="FAIL" starttime="20230207 15:38:38.066" endtime="20230207 15:38:38.091"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230207 15:38:38.092" endtime="20230207 15:38:38.092"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>index=3</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="NOT RUN" starttime="20230207 15:38:38.092" endtime="20230207 15:38:38.092"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//button[3]/span/div/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230207 15:38:38.093" endtime="20230207 15:38:38.093"/>
+</kw>
+<status status="FAIL" starttime="20230207 15:38:38.065" endtime="20230207 15:38:38.094">OSError: [WinError 216] Die Version von %1 ist mit der ausgeführten Windows-Version nicht kompatibel. Überprüfen Sie die Systeminformationen des Computers, und wenden Sie sich anschließend an den Herausgeber der Software</status>
+</test>
+<status status="FAIL" starttime="20230207 15:38:37.837" endtime="20230207 15:38:38.095"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="CookiesAccept">CookiesAccept</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
